@@ -1,0 +1,29 @@
+.bg-light{
+    background-color: none !important;
+    --bs-bg-opacity: 0;
+}
+.navbar-light .navbar-nav.navbar-nav .nav-link:hover{
+    /* background-color: turquoise; */
+    border-radius: 10px;
+    color: #6610f2;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+font-weight: 600;
+font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color:white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 35px;
+}
+a{
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #6610f2;
+}

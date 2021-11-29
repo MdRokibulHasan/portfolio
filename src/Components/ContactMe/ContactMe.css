@@ -1,0 +1,25 @@
+.contact-form input,textarea {
+
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #12152f;
+    width: 100%;
+    font-family: Josefin Sans,sans-serif;
+    color: #707070;
+    font-size: 17px;
+    border-radius: 0;
+}
+img{
+    max-width: 80%;
+    height: auto;
+    margin: 10px;
+}
+.site-btn:hover{
+    background-color: #6610f2;
+}
+.site-btn{
+    border-radius: 10px;
+    height: 50px;
+}

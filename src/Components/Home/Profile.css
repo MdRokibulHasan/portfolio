@@ -1,0 +1,15 @@
+.profile-image{
+    width: 70%;
+    height: 375px;
+}
+.highlighted-btn{
+    margin-top: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    height: 50px;
+    width: 150px;
+
+}
+.highlighted-btn:hover{
+    background-color: #6610f2;
+}
