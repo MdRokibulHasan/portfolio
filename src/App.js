@@ -3,10 +3,11 @@ import Home from './Components/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
+import Details from './Components/Portfolio/Details/Details';
+import Header from './Components/Home/Header/Header';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route exact path="/portfolio">
           <Home></Home>
+        </Route>
+        <Route path="/details/:id" >
+          <Details></Details>
         </Route>
       </Switch>
       <Route>

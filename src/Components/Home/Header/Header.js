@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, Container } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Header.css'
 const Header = () => {
 
@@ -14,17 +14,26 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link to="/home" className="nav-link active" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Portfolio</a>
+                                <Link to='#portfolio' className="nav-link" href="#">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <Link to='#about' className="nav-link" href="#">About Me</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contract Me</a>
+                                <Link to='#contact' className="nav-link" href="#">Contact Me</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to='#' className="nav-link" href="#">Blog</Link>
+                            </li>
+                            {/*  <li className="nav-item">
+                                <Link to='rokibul.pdf' download=' rokibul.pdf'>
+                                    <button className=" highlighted-btn">Get Resume</button>
+
+                                </Link>
+                            </li> */}
 
                         </ul>
 

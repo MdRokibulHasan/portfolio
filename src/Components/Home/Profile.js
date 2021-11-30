@@ -10,17 +10,17 @@ const Profile = () => {
                 <div className="profile-details col-md-6">
                     <div className="colz m-3">
                         <div className='colz-icon '>
-                            <a href="https://www.facebook.com/rokibulhasan.anik2/" className="mx-2 social">
-                                <i className="fa fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/rokibulhasan.anik2/" className="mx-2 " target="_blank">
+                                <i className="fa fa-facebook-square fa-2x"></i>
                             </a>
-                            <a href="https://github.com/MdRokibulHasan" className="mx-2 social">
-                                <i className="fa fa-github-square"></i>
+                            <a href="https://github.com/MdRokibulHasan" className="mx-2" target="_blank">
+                                <i className="fa fa-github-square fa-2x"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/md-rokibul-hasan-823921216/" className="mx-2 social">
-                                <i className="fa fa-linkedin-square"></i>
+                            <a href="https://www.linkedin.com/in/md-rokibul-hasan-823921216/" className="mx-2" target="_blank">
+                                <i className="fa fa-linkedin-square fa-2x"></i>
                             </a>
-                            <a href="https://twitter.com/RokibulAnik" className="mx-2 social">
-                                <i className="fa fa-twitter-square"></i>
+                            <a href="https://twitter.com/RokibulAnik" className="mx-2" target="_blank">
+                                <i className="fa fa-twitter-square fa-2x"></i>
                             </a>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Profile = () => {
                     <div className="profile-details-name">
                         <span className="primary-text">
                             {""}
-                            Hellow, I'M
+                            Hello, I'M
                         </span>
                     </div>
                     <div className="profile-details-role">
@@ -58,7 +58,7 @@ const Profile = () => {
                             Hire Me{""}
                         </button> */}
                         <a href='rokibul.pdf' download=' rokibul.pdf'>
-                            {/* <Button className="btn highlighted-btn">Get Resume</Button> */}
+
                             <button className=" highlighted-btn">Get Resume</button>
                         </a>
                     </div>
