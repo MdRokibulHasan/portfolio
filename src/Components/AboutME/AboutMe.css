@@ -1,6 +1,7 @@
 .aboutme-image{
-    width: 80%;
-    height: 315px;
+    /* width: 70%;
+    height: 80%; */
+    border-radius: 10px;
    
 }
 .about-text{

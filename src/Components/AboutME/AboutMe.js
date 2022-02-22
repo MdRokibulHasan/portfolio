@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import aboutImage from '../../image/aboutme.jpg'
+import aboutImage from '../../image/IMG_1294.png'
 
 import { HashLink as Link } from 'react-router-hash-link';
 const AboutMe = () => {
@@ -8,14 +8,15 @@ const AboutMe = () => {
         <div className="container" id="about">
             <div className="row  ">
                 <h1 className="about-text m-5">ABOUT ME</h1>
-                <div className="col-md-6">
-                    <img src={aboutImage} alt="" className="aboutme-image" />
+               <div className="d-flex align-items-center">
+               <div className="col-md-6">
+                    <img src={aboutImage} alt="" className="aboutme-image" className="img-fluid" style={{padding:"100px"}}/>
                 </div>
                 <div className="col-md-6 ">
                     <div className="about-text">
                         <h6>Hi there !</h6>
-                        <h5>I'm Rookibul Hasan, a Software Developer</h5>
-                        <p>Hi!My name is Rokibul.I am a Web Developer, and I'm very passionate and dedicated to my work. With 1 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration from discussion and collaboration.</p>
+                        <h5>I'm Rookibul Hasan, a Web Designer and Developer</h5>
+                        <p> I have completed my B.sc in SWE degree from the Department of Software Engineering of Daffodil International University. My keen interest in Software Engineering has enabled me to develop a good knowledge of Web Development, Along with my degree I complete javaScript,react,node JS and mongodb courses on Programing Hero.</p>
 
                         <p>I enjoy every step of the design process, from discussion and collaboration from discussion and collaboration.
 
@@ -28,6 +29,7 @@ const AboutMe = () => {
                         <Link to="#portfolio"><button className=" highlighted-btn">Portfolio</button></Link>
                     </div>
                 </div>
+               </div>
             </div>
         </div>
     );

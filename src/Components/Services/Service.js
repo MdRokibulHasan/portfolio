@@ -9,7 +9,7 @@ const Service = () => {
             <div className=" row">
                 <h1 className="m-5">MY SERVICES</h1>
                 <div className="col-md-4">
-                    <div className="card" >
+                    <div className="card" style={{minHeight:520}}>
                         <img src={desingImg} alt="" className="img-fuild" />
                         <div className="card-body service-card">
                             <h5 className="card-title">Web Design</h5>
@@ -19,7 +19,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card" >
+                    <div className="card" style={{minHeight:520}} >
                         <img src={deveroperImg} alt="" className="img-fuild" />
                         <div className="card-body service-card">
                             <h5 className="card-title">Web Development</h5>
@@ -28,7 +28,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card" >
+                    <div className="card" style={{minHeight:520}} >
                         <img src={mobileImg} alt="" className="img-fuild" />
                         <div className="card-body service-card">
                             <h5 className="card-title">Mobile-friendly</h5>

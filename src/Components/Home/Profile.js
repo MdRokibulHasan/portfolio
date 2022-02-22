@@ -1,7 +1,7 @@
 // import { Button } from 'bootstrap';
 import React from 'react';
 import Typical from 'react-typical';
-import profile from '../../image/my-bg.png';
+import profile from '../../image/Md-Rokibul.png';
 import './Profile.css';
 const Profile = () => {
     return (
@@ -64,7 +64,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img src={profile} alt="" className="profile-image mt-3" />
+                    <img src={profile} alt="" className="profile-image mt-3"  />
 
                 </div>
             </div>
