@@ -8,6 +8,7 @@ import {
 import Footer from './Components/Footer/Footer';
 import Details from './Components/Portfolio/Details/Details';
 import Header from './Components/Home/Header/Header';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/details/:id" >
           <Details></Details>
+        </Route>
+        <Route path="/projects" >
+          <Projects></Projects>
         </Route>
       </Switch>
       <Route>

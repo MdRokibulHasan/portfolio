@@ -6,11 +6,11 @@ import { HashLink as Link } from 'react-router-hash-link';
 const AboutMe = () => {
     return (
         <div className="container" id="about">
-            <div className="row  ">
+            <div className=" ">
                 <h1 className="about-text m-5">ABOUT ME</h1>
-               <div className="d-flex align-items-center">
-               <div className="col-md-6">
-                    <img src={aboutImage} alt="" className="aboutme-image" className="img-fluid" style={{padding:"100px"}}/>
+               <div className="d-flex align-items-center ">
+               <div className="col-md-6 d-flex justify-content-center">
+                    <img src={aboutImage} alt="Image"  className=" aboutme-image" />
                 </div>
                 <div className="col-md-6 ">
                     <div className="about-text">

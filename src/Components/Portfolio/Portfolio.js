@@ -15,6 +15,9 @@ const Portfolio = () => {
 
         history.push(uri);
     }
+    function handleClick() {
+        history.push("/projects");
+      }
     return (
         <div className="container mt-5" id="portfolio">
             <h1 className="m-5">MY WORKS</h1>
@@ -30,11 +33,16 @@ const Portfolio = () => {
                                     <p>----- HTML, CSS, BOOTSTRAP, EXPRESS, MONGODB, FIREBASE, HEROKU</p> */}
                                 </div>
 
-                                <button onClick={() => handleDetails(value.id)} id="portfolio-btn">Details</button>
+                                <button onClick={() => handleDetails(value.id)} id="portfolio-btn" style={{padding:"10px"}}>Details</button>
                             </div>
                         </div>
                     ))
                 }
+<div className=" d-flex justify-content-center">
+<button className=" highlighted-btn " type="button" onClick={handleClick}>
+      See More
+    </button>
+</div>
 
             </div>
 
